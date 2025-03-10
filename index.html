@@ -3,114 +3,341 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio - Game Developer</title>
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
+    <title>Your Name - Game Developer & AI Researcher</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <!-- Navigation Bar -->
-    <nav>
-        <ul>
-            <li><a href="#" data-target="about">About</a></li>
-            <li><a href="#" data-target="experience">Experience</a></li>
-            <li><a href="#" data-target="projects">Projects</a></li>
-            <li><a href="#" data-target="publications">Publications</a></li>
-            <li><a href="#" data-target="awards">Awards</a></li>
-            <li><a href="#" data-target="contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Header / Hero Section -->
     <header>
-        <div class="container">
-            <h1>My Name</h1>
-            <h2>Game Developer | AI Enthusiast</h2>
-            <p>
-                <a href="mailto:my@mail.com">📧 Email</a> | 
-                <a href="https://linkedin.com/in/my-linkedin-id">🔗 LinkedIn</a> | 
-                <a href="https://github.com/mygithubusername">💻 GitHub</a>
-            </p>
-        </div>
+        <nav>
+            <div class="logo">
+                <a href="#home">Seyedparsa Dajkhosh</a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education & Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
-        <!-- About Section -->
-        <section id="about" class="content-section active">
-            <h2>About Me</h2>
-            <p>Master student in Computer Science specializing in AI and Procedural Content Generation in Games...</p>
-            <h3>Education</h3>
-            <ul>
-                <li>🎓 <strong>Master of Science in Computer Science</strong> (2021-2025) | University of T</li>
-                <li>🎓 <strong>Bachelor of Science in Surveying Engineering</strong> (2016-2021) | University of T</li>
-            </ul>
-        </section>
-
-        <!-- Experience Section -->
-        <section id="experience" class="content-section">
-            <h2>Work Experience</h2>
-            <h3>UAV Photogrammetry Intern (Deep Learning)</h3>
-            <p>Close Range Photogrammetry Lab | May 2021 - Sep 2021</p>
-            <h3>Teaching Assistant</h3>
-            <ul>
-                <li>Linear Algebra</li>
-                <li>Ordinary Differential Equations</li>
-                <li>Engineering Mathematics</li>
-                <li>Computer Programming</li>
-            </ul>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects" class="content-section">
-            <h2>Projects</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>2D Platformer Game Development</h3>
-                    <p>Developed a 2D platformer using Unity and C#.</p>
-                    <a href="https://github.com/mygithubusername/game-project" target="_blank">🔗 GitHub</a>
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hello, I'm <span class="highlight">Seyedparsa Dajkhosh</span></h1>
+                <h2>Game Developer & AI Researcher</h2>
+                <p>Specializing in Procedural Content Generation & AI in Games</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
                 </div>
-                <div class="project-card">
-                    <h3>Procedural Dungeon Generation</h3>
-                    <p>Implemented PCG methods like Binary Space Partitioning.</p>
-                    <a href="https://github.com/mygithubusername/pcg-project" target="_blank">🔗 GitHub</a>
-                </div>
-                <div class="project-card">
-                    <h3>Segmentation of Buildings in UAV Images</h3>
-                    <p>Used Deep Learning for image segmentation.</p>
-                    <a href="https://doi.org/your-paper" target="_blank">📄 Paper DOI</a>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/seyedparsa-dajkhosh" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/parsadaj" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:parsadaj@ut.ac.ir"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Publications Section -->
-        <section id="publications" class="content-section">
-            <h2>Publications</h2>
-            <p><a href="https://doi.org/paper1" target="_blank">📄 Paper 1</a></p>
-            <p><a href="https://doi.org/paper2" target="_blank">📄 Paper 2</a></p>
-        </section>
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="img-placeholder">
+                        <i class="fas fa-user"></i>
+                        <p>Your Photo</p>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>Master student in computer science, with a focus on AI, doing a thesis in the field of procedural content generation in Games. Quick and self-driven learner adept at rapidly picking up new programming languages. Strong analytical and problem-solving skills developed through competitive programming, hackathons, and academic projects.</p>
+                    
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Tehran, Iran</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>parsadaj@ut.ac.ir</span>
+                        </div>
+                    </div>
+                    
+                    <h3>Interests</h3>
+                    <div class="interests">
+                        <span class="interest"><i class="fas fa-gamepad"></i> Video Games</span>
+                        <span class="interest"><i class="fas fa-chess"></i> Board Games</span>
+                        <span class="interest"><i class="fas fa-bicycle"></i> Cycling</span>
+                        <span class="interest"><i class="fas fa-futbol"></i> Football</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <!-- Awards Section -->
-        <section id="awards" class="content-section">
-            <h2>Awards</h2>
-            <p>🏆 Won [Award Name]</p>
-            <p>🔗 <a href="https://your-friends-website.com" target="_blank">Backlink to my friend's website</a></p>
-        </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="content-section">
-            <h2>Contact Me</h2>
-            <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-    </main>
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project-platformer.jpg" alt="2D Platformer Game" onerror="this.src='images/placeholder.jpg'">
+                    </div>
+                    <div class="project-info">
+                        <h3>2D Platformer Game</h3>
+                        <p>Developed a complete 2D platformer game using Unity and C#, featuring custom character controller, enemies, and level design.</p>
+                        <div class="project-tags">
+                            <span>Unity</span>
+                            <span>C#</span>
+                            <span>Game Design</span>
+                        </div>
+                        <a href="https://github.com/parsadaj/The-Tale-of-Jack" class="btn btn-sm">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project-dungeon.jpg" alt="Procedural Dungeon Generation" onerror="this.src='images/placeholder.jpg'">
+                    </div>
+                    <div class="project-info">
+                        <h3>Procedural Dungeon Generation</h3>
+                        <p>Implemented multiple PCG methods including Binary Space Partitioning, Agent-Based Dungeon Growing, and Search-Based Evolutionary Procedural Generation.</p>
+                        <div class="project-tags">
+                            <span>Procedural Content Generation</span>
+                            <span>python</span>
+                        </div>
+                        <a href="https://github.com/parsadaj/procedural-dungeon-generation" class="btn btn-sm">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project-segmentation.jpg" alt="Random Terrain" onerror="this.src='images/placeholder.jpg'">
+                    </div>
+                    <div class="project-info">
+                        <h3>Generating Random Terrain via Noise Functions</h3>
+                        <p>Used different noise functions such as Value Noise, Gradient Noise, and Perlin Noise to generate artificial terrains.</p>
+                        <div class="project-tags">
+                            <span>Procedural Content Generation</span>
+                            <span>Python</span>
+                        </div>
+                        <a href="https://github.com/parsadaj/random-terrain-generation" class="btn btn-sm">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project-segmentation.jpg" alt="Random Terrain" onerror="this.src='images/placeholder.jpg'">
+                    </div>
+                    <div class="project-info">
+                        <h3>Generating Levels and Terrains using WaveFunctionCollapse</h3>
+                        <p>Used WaveFunctionCollapse (Model Synthesis) to generate levels and terrains.</p>
+                        <div class="project-tags">
+                            <span>Procedural Content Generation</span>
+                            <span>Python</span>
+                        </div>
+                        <a href="https://github.com/parsadaj/WaveFunctionCollapse" class="btn btn-sm">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project-games.jpg" alt="Simple Games" onerror="this.src='images/placeholder.jpg'">
+                    </div>
+                    <div class="project-info">
+                        <h3>Simple Game Collection</h3>
+                        <p>Coded classic games like Tic Tac Toe and Minesweeper to enhance programming abilities in Python, API development, and game patterns.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>UI Development</span>
+                            <span>Game Logic</span>
+                        </div>
+                        <a href="https://github.com/parsadaj/minesweeper" class="btn btn-sm">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education section-padding alternate-bg">
+        <div class="container">
+            <h2 class="section-title">Education & Experience</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Master of Science in Computer Science</h3>
+                        <h4>University of Tehran</h4>
+                        <p class="timeline-date">2021 - 2025</p>
+                        <p>GPA: 15.33 / 20</p>
+                        <p>Focus on AI and Procedural Content Generation in Games</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Teaching Assistant</h3>
+                        <h4>University of Tehran</h4>
+                        <p class="timeline-date">2017-2021</p>
+                        <ul>
+                            <li>Linear Algebra</li>
+                            <li>Ordinary Differential Equations</li>
+                            <li>Engineering Mathematics</li>
+                            <li>Computer Programming</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>UAV Photogrammetry Intern (Deep Learning)</h3>
+                        <h4>Close Range Photogrammetry Lab at University of Tehran</h4>
+                        <p class="timeline-date">May 2021 - Sep 2021</p>
+                        <p>Applied deep learning techniques to UAV imagery for photogrammetry applications.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Science in Surveying Engineering</h3>
+                        <h4>University of Tehran</h4>
+                        <p class="timeline-date">2016 - 2021</p>
+                        <p>GPA: 15.17 / 20</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="certifications">
+                <h3 class="subsection-title">Certifications & Courses</h3>
+                <div class="cert-container">
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <div class="cert-info">
+                            <h4>C# Programming for Unity Game Development Specialization</h4>
+                            <p>Coursera + University of Colorado</p>
+                            <span class="cert-date">2023</span>
+                        </div>
+                    </div>
+                    
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <div class="cert-info">
+                            <h4>Generative Adversarial Networks (GANs) Specialization</h4>
+                            <p>Coursera + DeepLearningAI</p>
+                            <span class="cert-date">2020</span>
+                        </div>
+                    </div>
+                    
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <div class="cert-info">
+                            <h4>Deep Learning Specialization</h4>
+                            <p>Coursera + DeepLearningAI</p>
+                            <span class="cert-date">2019</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="publications">
+                <h3 class="subsection-title">Publications & Awards</h3>
+                <div class="publication-list">
+                    <div class="publication-item">
+                        <i class="fas fa-file-alt"></i>
+                        <div class="publication-info">
+                            <p><a href="https://arxiv.org/abs/2412.04688" target="_blank">Utilizing WaveFunctionCollapse Algorithm for Procedural Generation of Terrains using Remotely Sensed Elevation Data</a></p>
+                            <p class="publication-venue">arXiv, 2024</p>
+                        </div>
+                    </div>
+                    <div class="publication-item">
+                        <i class="fas fa-file-alt"></i>
+                        <div class="publication-info">
+                            <p><a href="https://isprs-annals.copernicus.org/articles/X-4-W1-2022/537/2023/" target="_blank">Surface Normal Reconstruction Using Polarization-UNET</a></p>
+                            <p class="publication-venue">ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 2023</p>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="awards">
+                    <div class="award-item">
+                        <i class="fas fa-award"></i>
+                        <p>
+                            I was awarded the Scientific Elite at The Sixth Young Scientists' Festival in 2022 in the Artificial Intelligence department for my idea on "Intelligent Control of Advertising: Automatic Detection of Ponzi Fraud". 
+                            <a href="http://webamooz.com/" target="_blank">Webamooz</a> and 
+                            <a href="https://iici.io/" target="_blank">IICI</a> were my primary references for my proposal, and I couldn’t have achieved this award without them. A foreign succesful example of a project similar to my proposal can be seen at
+                            <a href="https://scamminder.com/" target="_blank">ScamMinder</a> which was launched in 2024 in the USA.
+                            <a href="https://ysf-persia.com/wp-content/uploads/2023/06/%D8%AE%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D8%B4%D8%B4%D9%85%DB%8C%D9%86-%D8%AC%D8%B4%D9%86%D9%88%D8%A7%D8%B1%D9%87-%D8%A7%D9%86%D8%AF%DB%8C%D8%B4%D9%85%D9%86%D8%AF%D8%A7%D9%86-%D9%88-%D8%AF%D8%A7%D9%86%D8%B4%D9%85%D9%86%D8%AF%D8%A7%D9%86-%D8%AC%D9%88%D8%A7%D9%86_compressed-1.pdf" target="_blank">Learn more</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>parsadaj@ut.ac.ir</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Tehran, Iran</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p><a href="https://linkedin.com/in/seyedparsa-dajkhosh" target="_blank">seyedparsa-dajkhosh</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p><a href="https://github.com/parsadaj" target="_blank">parsadaj</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2025 My Name. All rights reserved.</p>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/seyedparsa-dajkhosh" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/parsadaj" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="parsadaj@ut.ac.ir"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
 
+    <script src="js/main.js"></script>
 </body>
 </html>
